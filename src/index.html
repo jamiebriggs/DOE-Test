@@ -1,0 +1,26 @@
+<html ng-app="app">
+	<head>
+		<title>DOE Sales</title>
+		<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" type="text/css" rel="stylesheet"></link>
+		<link href="app.css" type="text/css" rel="stylesheet"></link>
+	</head>
+	<body>
+		<header>
+			<h1>DOE Sales</h1>
+		</header>
+		<nav>
+			<ul>
+				<li class="home">
+					<a href="#">HOME</a>
+				</li>
+			</ul>
+		</nav>
+		<main ng-view></main>
+		<!-- Scripts here -->
+		<!-- External scripts first -->
+		<script type="application/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+		<script type="application/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular-route.min.js"></script>
+		<!-- Scripts hosted on server -->
+		<script type="application/javascript" src="app.js"></script> <!-- concatenated js files -->
+	</body>
+</html>
